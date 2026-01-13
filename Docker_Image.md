@@ -31,7 +31,7 @@ Note :
 Membuat TAG baru untuk image yang sudah ada :
 
 ```bash
-docker tag [IMAGE] [NAMA]
+docker tag [IMAGE] [NAMA_CONTAINER]
 ```
 
 ### Remove Image

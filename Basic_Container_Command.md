@@ -16,11 +16,11 @@ docker ps -a
 Menyalakan kembali container yang telah dimatikan :
 
 ```bash
-docker start [NAMA] / [ID]
+docker start [NAMA_CONTAINER] / [ID]
 
 /
 
-docker container start [NAMA] / [ID]
+docker container start [NAMA_CONTAINER] / [ID]
 ```
 
 Note :
@@ -29,7 +29,7 @@ Note :
 Mematikan container yang sedang berjalan :
 
 ```bash
-docker stop [NAMA] / [ID]
+docker stop [NAMA_CONTAINER] / [ID]
 ```
 
 Note :
@@ -40,7 +40,7 @@ Note :
 Menampilkan informasi detail dari container yang di pilih :
 
 ```bash
-docker inspect [NAMA] / [ID]
+docker inspect [NAMA_CONTAINER] / [ID]
 ```
 
 #### Log container
@@ -48,7 +48,7 @@ docker inspect [NAMA] / [ID]
 Menampilkan log dari container yang di pilih :
 
 ```bash
-docker logs [NAMA] / [ID]
+docker logs [NAMA_CONTAINER] / [ID]
 ```
 
 ### Exec Container
@@ -56,27 +56,27 @@ docker logs [NAMA] / [ID]
 Menjalankan suatu perintah di dalam sebuah container yang dipilih :
 
 ```bash
-docker exec [NAMA] / [ID] [PERINTAH]
+docker exec [NAMA_CONTAINER] / [ID] [PERINTAH]
 ```
 
 Contoh nya seperti :
 
 ```bash
-docker exec [NAMA] / [ID] hostname
+docker exec [NAMA_CONTAINER] / [ID] hostname
 
 /
 
-docker exec [NAMA] / [ID] env
+docker exec [NAMA_CONTAINER] / [ID] env
 
 /
 
-docker exec [NAMA] / [ID] ls -l /
+docker exec [NAMA_CONTAINER] / [ID] ls -l /
 ```
 
 Masuk kedalam container dengan mode interaktif seperti remote SSH pada virtual machine :
 
 ```bash
-docker exec -it [NAMA] / [ID] bash
+docker exec -it [NAMA_CONTAINER] / [ID] bash
 ```
 
 Note :

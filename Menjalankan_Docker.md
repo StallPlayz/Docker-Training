@@ -3,18 +3,18 @@
 Membuat dan menjalankan sebuah container :
 
 ```bash
-docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+docker run [OPTIONS] [IMAGE] [COMMAND] [ARG...]
 ```
 
 Note :
 1. `[OPTIONS]` diisi dengan opsi tambahan seperti nama, konfigurasi, network, volume, dll.
-2. `IMAGE` diisi dengan nama image yang akan digunakan, contoh : `nginx`.
+2. `[IMAGE]` diisi dengan nama image yang akan digunakan, contoh : `nginx`.
 3. `[COMMAND]` dan `[ARG...]` diisi dengan perintah atau argumen tambahan yang bersifat opsional.
 
 Untuk menjalankan container di belakang layar :
 
 ```bash
-docker run -d --name [NAME] IMAGE
+docker run -d --name [NAMA_CONTAINER] [IMAGE]
 ```
 
 Note :
