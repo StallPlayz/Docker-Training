@@ -41,3 +41,16 @@ Membersihkan Command Prompt :
 ```bash
 cls
 ```
+
+### BOTH
+
+Mentransfer data ke atau dari sebuah server menggunakan berbagai network protocols :
+
+```bash
+curl [OPTION] [URL]
+```
+
+Note :
+
+1. `[OPTION]` diisi dengan opsi / configurasi tambahan.
+2. `[URL]` diisi dengan link URL yang ingin di akses.
